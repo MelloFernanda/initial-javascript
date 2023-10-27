@@ -12,7 +12,7 @@ function renderTodoList(){
     let todoListHMTL ='';
 
 
-    todoList.forEach(function(todoObject, index){
+    todoList.forEach((todoObject, index) => {
 
         //const name = todoObject.name;
         //const name = todoObject.name;
